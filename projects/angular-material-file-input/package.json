@@ -1,6 +1,26 @@
 {
   "name": "angular-material-file-input",
-  "version": "0.0.1",
+  "version": "14.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Ben Baran"
+  },
+  "description": "Angular Material File Drag Drop Input",
+  "homepage": "https://github.com/benbaran/angular-material-file-input",
+  "keywords": [
+    "angular",
+    "material",
+    "file",
+    "input",
+    "mat-form-field"
+  ],
+  "bugs": {
+    "url": "https://github.com/benbaran/angular-material-file-input/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benbaran/angular-material-file-input"
+  },
   "peerDependencies": {
     "@angular/common": "^14.2.0",
     "@angular/core": "^14.2.0",

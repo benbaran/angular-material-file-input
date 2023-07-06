@@ -26,7 +26,7 @@ import { FocusMonitor } from '@angular/cdk/a11y';
 import { Observable, Subject } from 'rxjs';
 
 @Component({
-  selector: 'ngx-mat-file-input',
+  selector: 'angular-material-file-input',
   templateUrl: './file-input.component.html',
   styleUrls: ['./file-input.component.css'],
   providers: [
@@ -57,7 +57,7 @@ export class FileInputComponent
   @Input() accept: string | null = null;
   @Input() override errorStateMatcher!: ErrorStateMatcher;
 
-  @HostBinding() id = `ngx-mat-file-input-${FileInputComponent.nextId++}`;
+  @HostBinding() id = `angular-material-file-input-${FileInputComponent.nextId++}`;
   @HostBinding('attr.aria-describedby') describedBy = '';
 
   setDescribedByIds(ids: string[]) {
