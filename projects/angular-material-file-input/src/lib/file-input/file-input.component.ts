@@ -19,7 +19,7 @@ import {
 } from '@angular/forms';
 import { FileInput } from '../model/file-input';
 import { FileInputMixinBase } from '../mixin/file-input-mixin';
-import { MatFormFieldControl } from '@angular/material/form-field';
+import { MatLegacyFormFieldControl as MatFormFieldControl } from '@angular/material/legacy-form-field';
 import { ErrorStateMatcher } from '@angular/material/core';
 import { coerceBooleanProperty } from '@angular/cdk/coercion';
 import { FocusMonitor } from '@angular/cdk/a11y';
